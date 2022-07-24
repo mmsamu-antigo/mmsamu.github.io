@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .resume-contents {
@@ -138,5 +138,5 @@
 }
 
 p{
-    margin: 2px;
+    padding: 1px;
 }
