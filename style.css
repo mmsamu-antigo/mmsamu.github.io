@@ -1,10 +1,13 @@
-p {
-    margin: 2px 0px 0px 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: #70c6c7;
-    font-family: 'Roboto', sans-serif;
 }
 
 .resume-contents {
@@ -28,7 +31,7 @@ body {
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-content {
+.left-section-content{
     padding: 2rem 2rem;
 }
 
@@ -99,7 +102,6 @@ body {
 .skills ul {
     padding-top: 1.5rem;
 }
-
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
@@ -147,7 +149,6 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
-
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
@@ -206,7 +207,6 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
-
     .experience-contents,
     .education-contents,
     .awards-contents {
@@ -218,11 +218,11 @@ body {
     .left-section {
         grid-column: span 3;
     }
-
+    
     .right-section {
         grid-column: span 4;
     }
-
+    
 }
 
 @media screen and (max-width:1200px) {
